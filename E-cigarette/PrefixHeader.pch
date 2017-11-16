@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  E-cigarette
+//
+//  Created by 有限公司 深圳市 on 2017/10/14.
+//  Copyright © 2017年 SMA. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "ECNavigationProtocol.h"
+#import "ReactiveCocoa.h"
+#import <BmobSDK/Bmob.h>
+#import "ECDefaultionfos.h"
+#import "UIImage+EC.h"
+#import "ECLocalizeableMode.h"
+#import "ECStringVerify.h"
+#import <BmobSDK/Bmob.h>
+#import "MBProgressHUD_Tips.h"
+#import "ECStoredInfo.h"
+#import "ECUser.h"
+#import <Masonry/Masonry.h>
+#import "ECDeviceConnect.h"
+#import <MJExtension/MJExtension.h>
+#define ECMainScreen [UIScreen mainScreen].bounds // 0x28ccfa 0x59AAFD
+#define ECMediumSkyBlueColor ECUIColorFromRGB(0x59AAFD,1)
+// 判断是否是iPhone X
+#define iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+// 状态栏高度
+#define STATUS_BAR_HEIGHT (iPhoneX ? 44.f : 20.f)
+// 导航栏高度
+#define NAVIGATION_BAR_HEIGHT (iPhoneX ? 88.f : 64.f)
+// tabBar高度
+#define TAB_BAR_HEIGHT (iPhoneX ? (49.f+34.f) : 49.f)
+// home indicator
+#define HOME_INDICATOR_HEIGHT (iPhoneX ? 34.f : 0.f)
+
+#define ECUIColorFromRGB(rgbValue,a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
+
+#define ECLocalizedString(str,nil) [ECLocalizeableMode EClocalizedStringDic:str comment:nil] //.HelveticaNeueInterface-Regular SFUIText
+#endif /* PrefixHeader_pch */

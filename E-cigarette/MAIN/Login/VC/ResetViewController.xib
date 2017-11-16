@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ResetViewController">
+            <connections>
+                <outlet property="accountField" destination="6hW-6v-eCo" id="HuN-Uv-d9W"/>
+                <outlet property="resetBut" destination="ne3-Ac-IBc" id="jus-5U-Vzl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_8" translatesAutoresizingMaskIntoConstraints="NO" id="eKL-2v-ad9">
+                    <rect key="frame" x="120" y="70" width="136" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="9BA-Pr-oCG"/>
+                        <constraint firstAttribute="width" constant="136" id="eqG-uw-dPm"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7s-uI-Ysg">
+                    <rect key="frame" x="120" y="100" width="136" height="1"/>
+                    <color key="backgroundColor" red="0.66666666669999997" green="0.6705882353" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="YT2-B5-g7u"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_3" translatesAutoresizingMaskIntoConstraints="NO" id="Mai-It-UPQ">
+                    <rect key="frame" x="132" y="105" width="40" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="MzT-xj-HZ0"/>
+                        <constraint firstAttribute="height" constant="20" id="oFA-cH-2hV"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&amp;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJ9-hy-wFq">
+                    <rect key="frame" x="182" y="105" width="12" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_1" translatesAutoresizingMaskIntoConstraints="NO" id="WCY-ML-a9A">
+                    <rect key="frame" x="204" y="105" width="50" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="kZD-yq-44u"/>
+                        <constraint firstAttribute="width" constant="50" id="lC6-23-zMx"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_email" translatesAutoresizingMaskIntoConstraints="NO" id="5xt-Ha-sOj">
+                    <rect key="frame" x="41" y="175" width="16" height="15"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="16" id="00G-AN-56q"/>
+                        <constraint firstAttribute="height" constant="15" id="0hB-Rv-LL7"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入邮箱" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6hW-6v-eCo">
+                    <rect key="frame" x="65" y="168" width="270" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="sEc-1p-ny0"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOv-JY-CrG">
+                    <rect key="frame" x="40" y="201" width="295" height="1"/>
+                    <color key="backgroundColor" red="0.66666666669999997" green="0.6705882353" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="zQ7-bP-GUI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ne3-Ac-IBc">
+                    <rect key="frame" x="40" y="246" width="295" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="vGa-I5-V0z"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="19"/>
+                    <state key="normal" title="重置密码">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="6"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="V7s-uI-Ysg" firstAttribute="leading" secondItem="eKL-2v-ad9" secondAttribute="leading" id="1dY-rY-bqi"/>
+                <constraint firstItem="V7s-uI-Ysg" firstAttribute="top" secondItem="eKL-2v-ad9" secondAttribute="bottom" id="4Lp-Sl-iwu"/>
+                <constraint firstItem="6hW-6v-eCo" firstAttribute="leading" secondItem="5xt-Ha-sOj" secondAttribute="trailing" constant="8" id="5vT-zX-aUT"/>
+                <constraint firstItem="5xt-Ha-sOj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="41" id="6Br-Km-hsQ"/>
+                <constraint firstAttribute="trailing" secondItem="nOv-JY-CrG" secondAttribute="trailing" constant="40" id="78c-tf-1Uo"/>
+                <constraint firstItem="nOv-JY-CrG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="801-XF-Zg8"/>
+                <constraint firstItem="WCY-ML-a9A" firstAttribute="leading" secondItem="wJ9-hy-wFq" secondAttribute="trailing" constant="10" id="8Qn-sy-Zcq"/>
+                <constraint firstItem="WCY-ML-a9A" firstAttribute="centerY" secondItem="Mai-It-UPQ" secondAttribute="centerY" id="Edy-AR-oHb"/>
+                <constraint firstItem="wJ9-hy-wFq" firstAttribute="leading" secondItem="Mai-It-UPQ" secondAttribute="trailing" constant="10" id="Fzm-Ci-Ghh"/>
+                <constraint firstAttribute="trailing" secondItem="6hW-6v-eCo" secondAttribute="trailing" constant="40" id="H0t-V1-qeV"/>
+                <constraint firstItem="ne3-Ac-IBc" firstAttribute="top" secondItem="nOv-JY-CrG" secondAttribute="bottom" constant="44" id="QaP-XY-I51"/>
+                <constraint firstItem="eKL-2v-ad9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="Sv6-XE-Jfh"/>
+                <constraint firstItem="wJ9-hy-wFq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VDl-y0-NFK"/>
+                <constraint firstItem="nOv-JY-CrG" firstAttribute="top" secondItem="6hW-6v-eCo" secondAttribute="bottom" constant="3" id="VIj-hb-rFc"/>
+                <constraint firstItem="wJ9-hy-wFq" firstAttribute="centerY" secondItem="Mai-It-UPQ" secondAttribute="centerY" id="Vnm-J6-6AN"/>
+                <constraint firstItem="6hW-6v-eCo" firstAttribute="centerY" secondItem="5xt-Ha-sOj" secondAttribute="centerY" id="WA8-ZO-HJq"/>
+                <constraint firstItem="V7s-uI-Ysg" firstAttribute="trailing" secondItem="eKL-2v-ad9" secondAttribute="trailing" id="fKI-Lg-qip"/>
+                <constraint firstItem="wJ9-hy-wFq" firstAttribute="top" secondItem="V7s-uI-Ysg" secondAttribute="bottom" constant="4" id="fjR-Oi-xGt"/>
+                <constraint firstAttribute="trailing" secondItem="ne3-Ac-IBc" secondAttribute="trailing" constant="40" id="gxe-jj-kUL"/>
+                <constraint firstItem="5xt-Ha-sOj" firstAttribute="top" secondItem="Mai-It-UPQ" secondAttribute="bottom" constant="50" id="h91-Sg-jy8"/>
+                <constraint firstItem="ne3-Ac-IBc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="lm4-x0-sJv"/>
+                <constraint firstItem="eKL-2v-ad9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vx0-8e-W1q"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_email" width="19" height="15"/>
+        <image name="logo_1" width="634" height="200"/>
+        <image name="logo_3" width="372" height="200"/>
+        <image name="logo_8" width="818" height="200"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_E_cigarette {
+  umbrella header "Pods-E-cigarette-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,980 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D24AE9F815A009E4DB38E43C /* Pods_E_cigarette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6DB6501883FDBE706C92E8 /* Pods_E_cigarette.framework */; };
+		EE0609911F95968B000E432B /* FirstLunMode.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0609901F95968B000E432B /* FirstLunMode.m */; };
+		EE1465661F9705090014C48D /* UIImage+EC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1465651F9705090014C48D /* UIImage+EC.m */; };
+		EE1465691F97288B0014C48D /* UINavigationItem+EC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1465681F97288B0014C48D /* UINavigationItem+EC.m */; };
+		EE14656C1F9740CD0014C48D /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE14656B1F9740CD0014C48D /* LoginViewModel.m */; };
+		EE1465701F9746220014C48D /* ECLocalizeableMode.m in Sources */ = {isa = PBXBuildFile; fileRef = EE14656F1F9746220014C48D /* ECLocalizeableMode.m */; };
+		EE1465731F9748690014C48D /* ECStringVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1465721F9748690014C48D /* ECStringVerify.m */; };
+		EE149B431FA32EC80081F276 /* ECGeneralCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE149B411FA32EC80081F276 /* ECGeneralCell.m */; };
+		EE149B441FA32EC80081F276 /* ECGeneralCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE149B421FA32EC80081F276 /* ECGeneralCell.xib */; };
+		EE149B471FA332050081F276 /* ECTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE149B461FA332050081F276 /* ECTableViewModel.m */; };
+		EE149B4A1FA3325F0081F276 /* ECTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE149B491FA3325F0081F276 /* ECTableViewViewController.m */; };
+		EE149B4E1FA33E900081F276 /* ECGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE149B4C1FA33E900081F276 /* ECGeneralViewController.m */; };
+		EE149B4F1FA33E900081F276 /* ECGeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE149B4D1FA33E900081F276 /* ECGeneralViewController.xib */; };
+		EE149B521FA340B00081F276 /* GeneralViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE149B511FA340B00081F276 /* GeneralViewModel.m */; };
+		EE1AE61D1F949B9900C38658 /* ECNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1AE61C1F949B9900C38658 /* ECNavViewController.m */; };
+		EE24D8AA1F9DDA6F00AA496B /* ECSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE24D8A81F9DDA6E00AA496B /* ECSelectViewController.m */; };
+		EE24D8AB1F9DDA6F00AA496B /* ECSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE24D8A91F9DDA6E00AA496B /* ECSelectViewController.xib */; };
+		EE24D8AE1F9DE56400AA496B /* SelViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE24D8AD1F9DE56400AA496B /* SelViewModel.m */; };
+		EE24D8B21F9DED9B00AA496B /* ECSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE24D8B01F9DED9B00AA496B /* ECSearchViewController.m */; };
+		EE24D8B31F9DED9B00AA496B /* ECSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE24D8B11F9DED9B00AA496B /* ECSearchViewController.xib */; };
+		EE24D8B61F9DF36600AA496B /* SearchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE24D8B51F9DF36600AA496B /* SearchViewModel.m */; };
+		EE39EDD71F9989D400A4C8C0 /* ResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE39EDD51F9989D400A4C8C0 /* ResetViewController.m */; };
+		EE39EDD81F9989D400A4C8C0 /* ResetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE39EDD61F9989D400A4C8C0 /* ResetViewController.xib */; };
+		EE39EDDB1F998B0600A4C8C0 /* ResetViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE39EDDA1F998B0600A4C8C0 /* ResetViewModel.m */; };
+		EE43F3BC1F960F78001FFC7B /* ECDefaultionfos.m in Sources */ = {isa = PBXBuildFile; fileRef = EE43F3BB1F960F78001FFC7B /* ECDefaultionfos.m */; };
+		EE4E22B31F91AF4F00FBE51B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E22B21F91AF4F00FBE51B /* AppDelegate.m */; };
+		EE4E22B61F91AF4F00FBE51B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E22B51F91AF4F00FBE51B /* ViewController.m */; };
+		EE4E22B91F91AF4F00FBE51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4E22B71F91AF4F00FBE51B /* Main.storyboard */; };
+		EE4E22BB1F91AF4F00FBE51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4E22BA1F91AF4F00FBE51B /* Assets.xcassets */; };
+		EE4E22BE1F91AF4F00FBE51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4E22BC1F91AF4F00FBE51B /* LaunchScreen.storyboard */; };
+		EE4E22C11F91AF4F00FBE51B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E22C01F91AF4F00FBE51B /* main.m */; };
+		EE5318A71F983B1B002461FC /* ECStoredInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5318A61F983B1B002461FC /* ECStoredInfo.m */; };
+		EE5318AA1F983B96002461FC /* ECUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5318A91F983B96002461FC /* ECUser.m */; };
+		EE5318AF1F984538002461FC /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE5318AC1F984527002461FC /* MBProgressHUD.bundle */; };
+		EE5318B01F98453C002461FC /* MBProgressHUD_Tips.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5318AE1F984527002461FC /* MBProgressHUD_Tips.m */; };
+		EE5318B91F9874E1002461FC /* ECSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5318B71F9874E1002461FC /* ECSignViewController.m */; };
+		EE5318BA1F9874E1002461FC /* ECSignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5318B81F9874E1002461FC /* ECSignViewController.xib */; };
+		EE5318BD1F9875E6002461FC /* SignViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5318BC1F9875E6002461FC /* SignViewModel.m */; };
+		EE5ED06E1F99CB9700AFABC8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5ED06C1F99CB9700AFABC8 /* HomeViewController.m */; };
+		EE5ED06F1F99CB9700AFABC8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5ED06D1F99CB9700AFABC8 /* HomeViewController.xib */; };
+		EE5ED0741F99D5A600AFABC8 /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5ED0731F99D5A600AFABC8 /* HomeViewModel.m */; };
+		EE5ED0771F99EE4700AFABC8 /* UILabel+EC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5ED0761F99EE4700AFABC8 /* UILabel+EC.m */; };
+		EE8E14B11FA4178D00B7BA67 /* GeneralModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8E14B01FA4178D00B7BA67 /* GeneralModel.m */; };
+		EE8E14B31FA418DB00B7BA67 /* GeneralList.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE8E14B21FA418DB00B7BA67 /* GeneralList.plist */; };
+		EE8E14B61FA4267B00B7BA67 /* ECCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8E14B51FA4267B00B7BA67 /* ECCommunication.m */; };
+		EE9B882D1F95D88300F1A60A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9B882C1F95D88300F1A60A /* CoreLocation.framework */; };
+		EE9B882F1F95D88B00F1A60A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9B882E1F95D88B00F1A60A /* Security.framework */; };
+		EE9B88311F95D89300F1A60A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9B88301F95D89300F1A60A /* CoreGraphics.framework */; };
+		EE9B88331F95D89E00F1A60A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9B88321F95D89E00F1A60A /* MobileCoreServices.framework */; };
+		EE9B88351F95D8A500F1A60A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9B88341F95D8A500F1A60A /* CFNetwork.framework */; };
+		EE9B88371F95D8AC00F1A60A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9B88361F95D8AC00F1A60A /* CoreTelephony.framework */; };
+		EE9B88391F95D8B400F1A60A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9B88381F95D8B400F1A60A /* SystemConfiguration.framework */; };
+		EE9B883B1F95D8BE00F1A60A /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9B883A1F95D8BE00F1A60A /* libz.1.2.5.tbd */; };
+		EE9B883D1F95D8C700F1A60A /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9B883C1F95D8C700F1A60A /* libicucore.tbd */; };
+		EE9B883F1F95D8D700F1A60A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9B883E1F95D8D700F1A60A /* libsqlite3.tbd */; };
+		EE9B88411F95D8E100F1A60A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9B88401F95D8E100F1A60A /* libc++.tbd */; };
+		EE9B88491F95F07000F1A60A /* ECLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B88471F95F07000F1A60A /* ECLoginViewController.m */; };
+		EE9B884A1F95F07000F1A60A /* ECLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE9B88481F95F07000F1A60A /* ECLoginViewController.xib */; };
+		EE9B88521F95F1A800F1A60A /* ECFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B88501F95F1A800F1A60A /* ECFirstViewController.m */; };
+		EE9B88531F95F1A800F1A60A /* ECFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE9B88511F95F1A800F1A60A /* ECFirstViewController.xib */; };
+		EE9B88561F95FB2700F1A60A /* FirstLunViewMode.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B88551F95FB2700F1A60A /* FirstLunViewMode.m */; };
+		EEA066B21FA1F5C400D67AB4 /* ECSannendPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA066B11FA1F5C400D67AB4 /* ECSannendPeripheral.m */; };
+		EEB402931F9EDFFE004C7A41 /* ECDeviceConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB402921F9EDFFE004C7A41 /* ECDeviceConnect.m */; };
+		EEB402951F9EE71F004C7A41 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB402941F9EE71E004C7A41 /* CoreBluetooth.framework */; };
+		EECCF7921F9459AD00678C2B /* UIViewModelServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF7911F9459AD00678C2B /* UIViewModelServiceImpl.m */; };
+		EECCF7961F945B5E00678C2B /* ECViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF7951F945B5E00678C2B /* ECViewModel.m */; };
+		EECCF79A1F94810C00678C2B /* ECNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF7991F94810C00678C2B /* ECNavigationControllerStack.m */; };
+		EECCF79F1F94869E00678C2B /* ECRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF79E1F94869D00678C2B /* ECRouter.m */; };
+		EECCF7A31F94873700678C2B /* ECViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCF7A21F94873700678C2B /* ECViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A09CEABD52F5542DAA3FD2D /* Pods-E-cigarette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-cigarette.debug.xcconfig"; path = "Pods/Target Support Files/Pods-E-cigarette/Pods-E-cigarette.debug.xcconfig"; sourceTree = "<group>"; };
+		C5569F08A4A882F784B45CFC /* Pods-E-cigarette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-cigarette.release.xcconfig"; path = "Pods/Target Support Files/Pods-E-cigarette/Pods-E-cigarette.release.xcconfig"; sourceTree = "<group>"; };
+		EE06098F1F95968B000E432B /* FirstLunMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstLunMode.h; sourceTree = "<group>"; };
+		EE0609901F95968B000E432B /* FirstLunMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstLunMode.m; sourceTree = "<group>"; };
+		EE1465641F9705090014C48D /* UIImage+EC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+EC.h"; sourceTree = "<group>"; };
+		EE1465651F9705090014C48D /* UIImage+EC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EC.m"; sourceTree = "<group>"; };
+		EE1465671F97288B0014C48D /* UINavigationItem+EC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+EC.h"; sourceTree = "<group>"; };
+		EE1465681F97288B0014C48D /* UINavigationItem+EC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+EC.m"; sourceTree = "<group>"; };
+		EE14656A1F9740CD0014C48D /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		EE14656B1F9740CD0014C48D /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		EE14656E1F9746220014C48D /* ECLocalizeableMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECLocalizeableMode.h; sourceTree = "<group>"; };
+		EE14656F1F9746220014C48D /* ECLocalizeableMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECLocalizeableMode.m; sourceTree = "<group>"; };
+		EE1465711F9748690014C48D /* ECStringVerify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECStringVerify.h; sourceTree = "<group>"; };
+		EE1465721F9748690014C48D /* ECStringVerify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECStringVerify.m; sourceTree = "<group>"; };
+		EE149B401FA32EC80081F276 /* ECGeneralCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECGeneralCell.h; sourceTree = "<group>"; };
+		EE149B411FA32EC80081F276 /* ECGeneralCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECGeneralCell.m; sourceTree = "<group>"; };
+		EE149B421FA32EC80081F276 /* ECGeneralCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ECGeneralCell.xib; sourceTree = "<group>"; };
+		EE149B451FA332040081F276 /* ECTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTableViewModel.h; sourceTree = "<group>"; };
+		EE149B461FA332050081F276 /* ECTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTableViewModel.m; sourceTree = "<group>"; };
+		EE149B481FA3325F0081F276 /* ECTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTableViewViewController.h; sourceTree = "<group>"; };
+		EE149B491FA3325F0081F276 /* ECTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECTableViewViewController.m; sourceTree = "<group>"; };
+		EE149B4B1FA33E900081F276 /* ECGeneralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECGeneralViewController.h; sourceTree = "<group>"; };
+		EE149B4C1FA33E900081F276 /* ECGeneralViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECGeneralViewController.m; sourceTree = "<group>"; };
+		EE149B4D1FA33E900081F276 /* ECGeneralViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ECGeneralViewController.xib; sourceTree = "<group>"; };
+		EE149B501FA340B00081F276 /* GeneralViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralViewModel.h; sourceTree = "<group>"; };
+		EE149B511FA340B00081F276 /* GeneralViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralViewModel.m; sourceTree = "<group>"; };
+		EE1AE61B1F949B9900C38658 /* ECNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECNavViewController.h; sourceTree = "<group>"; };
+		EE1AE61C1F949B9900C38658 /* ECNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECNavViewController.m; sourceTree = "<group>"; };
+		EE24D8A71F9DDA6E00AA496B /* ECSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECSelectViewController.h; sourceTree = "<group>"; };
+		EE24D8A81F9DDA6E00AA496B /* ECSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECSelectViewController.m; sourceTree = "<group>"; };
+		EE24D8A91F9DDA6E00AA496B /* ECSelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ECSelectViewController.xib; sourceTree = "<group>"; };
+		EE24D8AC1F9DE56400AA496B /* SelViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelViewModel.h; sourceTree = "<group>"; };
+		EE24D8AD1F9DE56400AA496B /* SelViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelViewModel.m; sourceTree = "<group>"; };
+		EE24D8AF1F9DED9B00AA496B /* ECSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECSearchViewController.h; sourceTree = "<group>"; };
+		EE24D8B01F9DED9B00AA496B /* ECSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECSearchViewController.m; sourceTree = "<group>"; };
+		EE24D8B11F9DED9B00AA496B /* ECSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ECSearchViewController.xib; sourceTree = "<group>"; };
+		EE24D8B41F9DF36600AA496B /* SearchViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewModel.h; sourceTree = "<group>"; };
+		EE24D8B51F9DF36600AA496B /* SearchViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewModel.m; sourceTree = "<group>"; };
+		EE39EDD41F9989D400A4C8C0 /* ResetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResetViewController.h; sourceTree = "<group>"; };
+		EE39EDD51F9989D400A4C8C0 /* ResetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResetViewController.m; sourceTree = "<group>"; };
+		EE39EDD61F9989D400A4C8C0 /* ResetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResetViewController.xib; sourceTree = "<group>"; };
+		EE39EDD91F998B0600A4C8C0 /* ResetViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResetViewModel.h; sourceTree = "<group>"; };
+		EE39EDDA1F998B0600A4C8C0 /* ResetViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResetViewModel.m; sourceTree = "<group>"; };
+		EE43F3BA1F960F78001FFC7B /* ECDefaultionfos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECDefaultionfos.h; sourceTree = "<group>"; };
+		EE43F3BB1F960F78001FFC7B /* ECDefaultionfos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECDefaultionfos.m; sourceTree = "<group>"; };
+		EE4E22AE1F91AF4F00FBE51B /* E-cigarette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-cigarette.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4E22B11F91AF4F00FBE51B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE4E22B21F91AF4F00FBE51B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE4E22B41F91AF4F00FBE51B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE4E22B51F91AF4F00FBE51B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE4E22B81F91AF4F00FBE51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE4E22BA1F91AF4F00FBE51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE4E22BD1F91AF4F00FBE51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE4E22BF1F91AF4F00FBE51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4E22C01F91AF4F00FBE51B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE4E22C71F91B48B00FBE51B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EE5318A51F983B1B002461FC /* ECStoredInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECStoredInfo.h; sourceTree = "<group>"; };
+		EE5318A61F983B1B002461FC /* ECStoredInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECStoredInfo.m; sourceTree = "<group>"; };
+		EE5318A81F983B96002461FC /* ECUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECUser.h; sourceTree = "<group>"; };
+		EE5318A91F983B96002461FC /* ECUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECUser.m; sourceTree = "<group>"; };
+		EE5318AC1F984527002461FC /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		EE5318AD1F984527002461FC /* MBProgressHUD_Tips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD_Tips.h; sourceTree = "<group>"; };
+		EE5318AE1F984527002461FC /* MBProgressHUD_Tips.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD_Tips.m; sourceTree = "<group>"; };
+		EE5318B61F9874E1002461FC /* ECSignViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECSignViewController.h; sourceTree = "<group>"; };
+		EE5318B71F9874E1002461FC /* ECSignViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECSignViewController.m; sourceTree = "<group>"; };
+		EE5318B81F9874E1002461FC /* ECSignViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ECSignViewController.xib; sourceTree = "<group>"; };
+		EE5318BB1F9875E5002461FC /* SignViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignViewModel.h; sourceTree = "<group>"; };
+		EE5318BC1F9875E6002461FC /* SignViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignViewModel.m; sourceTree = "<group>"; };
+		EE5ED06B1F99CB9700AFABC8 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EE5ED06C1F99CB9700AFABC8 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EE5ED06D1F99CB9700AFABC8 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		EE5ED0721F99D5A600AFABC8 /* HomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewModel.h; sourceTree = "<group>"; };
+		EE5ED0731F99D5A600AFABC8 /* HomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewModel.m; sourceTree = "<group>"; };
+		EE5ED0751F99EE4700AFABC8 /* UILabel+EC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+EC.h"; sourceTree = "<group>"; };
+		EE5ED0761F99EE4700AFABC8 /* UILabel+EC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+EC.m"; sourceTree = "<group>"; };
+		EE8E14AF1FA4178D00B7BA67 /* GeneralModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralModel.h; sourceTree = "<group>"; };
+		EE8E14B01FA4178D00B7BA67 /* GeneralModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralModel.m; sourceTree = "<group>"; };
+		EE8E14B21FA418DB00B7BA67 /* GeneralList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GeneralList.plist; sourceTree = "<group>"; };
+		EE8E14B41FA4267B00B7BA67 /* ECCommunication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECCommunication.h; sourceTree = "<group>"; };
+		EE8E14B51FA4267B00B7BA67 /* ECCommunication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECCommunication.m; sourceTree = "<group>"; };
+		EE944A8D1F944573005CC466 /* ECNavigationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECNavigationProtocol.h; sourceTree = "<group>"; };
+		EE9B882C1F95D88300F1A60A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EE9B882E1F95D88B00F1A60A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EE9B88301F95D89300F1A60A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE9B88321F95D89E00F1A60A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EE9B88341F95D8A500F1A60A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EE9B88361F95D8AC00F1A60A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EE9B88381F95D8B400F1A60A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EE9B883A1F95D8BE00F1A60A /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		EE9B883C1F95D8C700F1A60A /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		EE9B883E1F95D8D700F1A60A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EE9B88401F95D8E100F1A60A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		EE9B88461F95F07000F1A60A /* ECLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECLoginViewController.h; sourceTree = "<group>"; };
+		EE9B88471F95F07000F1A60A /* ECLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECLoginViewController.m; sourceTree = "<group>"; };
+		EE9B88481F95F07000F1A60A /* ECLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ECLoginViewController.xib; sourceTree = "<group>"; };
+		EE9B884F1F95F1A800F1A60A /* ECFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECFirstViewController.h; sourceTree = "<group>"; };
+		EE9B88501F95F1A800F1A60A /* ECFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECFirstViewController.m; sourceTree = "<group>"; };
+		EE9B88511F95F1A800F1A60A /* ECFirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ECFirstViewController.xib; sourceTree = "<group>"; };
+		EE9B88541F95FB2700F1A60A /* FirstLunViewMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstLunViewMode.h; sourceTree = "<group>"; };
+		EE9B88551F95FB2700F1A60A /* FirstLunViewMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstLunViewMode.m; sourceTree = "<group>"; };
+		EEA066B01FA1F5C400D67AB4 /* ECSannendPeripheral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECSannendPeripheral.h; sourceTree = "<group>"; };
+		EEA066B11FA1F5C400D67AB4 /* ECSannendPeripheral.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECSannendPeripheral.m; sourceTree = "<group>"; };
+		EEB402911F9EDFFE004C7A41 /* ECDeviceConnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECDeviceConnect.h; sourceTree = "<group>"; };
+		EEB402921F9EDFFE004C7A41 /* ECDeviceConnect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECDeviceConnect.m; sourceTree = "<group>"; };
+		EEB402941F9EE71E004C7A41 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		EECCF78F1F94583B00678C2B /* UIViewModeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewModeService.h; sourceTree = "<group>"; };
+		EECCF7901F9459AD00678C2B /* UIViewModelServiceImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewModelServiceImpl.h; sourceTree = "<group>"; };
+		EECCF7911F9459AD00678C2B /* UIViewModelServiceImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewModelServiceImpl.m; sourceTree = "<group>"; };
+		EECCF7931F945A3900678C2B /* ECViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECViewModelProtocol.h; sourceTree = "<group>"; };
+		EECCF7941F945B5E00678C2B /* ECViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECViewModel.h; sourceTree = "<group>"; };
+		EECCF7951F945B5E00678C2B /* ECViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECViewModel.m; sourceTree = "<group>"; };
+		EECCF7981F94810C00678C2B /* ECNavigationControllerStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECNavigationControllerStack.h; sourceTree = "<group>"; };
+		EECCF7991F94810C00678C2B /* ECNavigationControllerStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECNavigationControllerStack.m; sourceTree = "<group>"; };
+		EECCF79D1F94869D00678C2B /* ECRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECRouter.h; sourceTree = "<group>"; };
+		EECCF79E1F94869D00678C2B /* ECRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECRouter.m; sourceTree = "<group>"; };
+		EECCF7A11F94873700678C2B /* ECViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECViewController.h; sourceTree = "<group>"; };
+		EECCF7A21F94873700678C2B /* ECViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECViewController.m; sourceTree = "<group>"; };
+		EECCF7A41F9487B000678C2B /* ECViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECViewProtocol.h; sourceTree = "<group>"; };
+		FB6DB6501883FDBE706C92E8 /* Pods_E_cigarette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_cigarette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4E22AB1F91AF4F00FBE51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB402951F9EE71F004C7A41 /* CoreBluetooth.framework in Frameworks */,
+				EE9B88411F95D8E100F1A60A /* libc++.tbd in Frameworks */,
+				EE9B883F1F95D8D700F1A60A /* libsqlite3.tbd in Frameworks */,
+				EE9B883D1F95D8C700F1A60A /* libicucore.tbd in Frameworks */,
+				EE9B883B1F95D8BE00F1A60A /* libz.1.2.5.tbd in Frameworks */,
+				EE9B88391F95D8B400F1A60A /* SystemConfiguration.framework in Frameworks */,
+				EE9B88371F95D8AC00F1A60A /* CoreTelephony.framework in Frameworks */,
+				EE9B88351F95D8A500F1A60A /* CFNetwork.framework in Frameworks */,
+				EE9B88331F95D89E00F1A60A /* MobileCoreServices.framework in Frameworks */,
+				EE9B88311F95D89300F1A60A /* CoreGraphics.framework in Frameworks */,
+				EE9B882F1F95D88B00F1A60A /* Security.framework in Frameworks */,
+				EE9B882D1F95D88300F1A60A /* CoreLocation.framework in Frameworks */,
+				D24AE9F815A009E4DB38E43C /* Pods_E_cigarette.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D66687B6981CE8A9C0C60A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A09CEABD52F5542DAA3FD2D /* Pods-E-cigarette.debug.xcconfig */,
+				C5569F08A4A882F784B45CFC /* Pods-E-cigarette.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE1465601F97045A0014C48D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EE1465641F9705090014C48D /* UIImage+EC.h */,
+				EE1465651F9705090014C48D /* UIImage+EC.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EE14656D1F9745BE0014C48D /* LocalizeableModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE14656E1F9746220014C48D /* ECLocalizeableMode.h */,
+				EE14656F1F9746220014C48D /* ECLocalizeableMode.m */,
+			);
+			path = LocalizeableModel;
+			sourceTree = "<group>";
+		};
+		EE149B3F1FA32EAB0081F276 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE149B401FA32EC80081F276 /* ECGeneralCell.h */,
+				EE149B411FA32EC80081F276 /* ECGeneralCell.m */,
+				EE149B421FA32EC80081F276 /* ECGeneralCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE24D8A41F9DDA1800AA496B /* Select */ = {
+			isa = PBXGroup;
+			children = (
+				EE24D8A61F9DDA2700AA496B /* ViewModel */,
+				EE24D8A51F9DDA2300AA496B /* VC */,
+			);
+			path = Select;
+			sourceTree = "<group>";
+		};
+		EE24D8A51F9DDA2300AA496B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				EE24D8A71F9DDA6E00AA496B /* ECSelectViewController.h */,
+				EE24D8A81F9DDA6E00AA496B /* ECSelectViewController.m */,
+				EE24D8A91F9DDA6E00AA496B /* ECSelectViewController.xib */,
+				EE24D8AF1F9DED9B00AA496B /* ECSearchViewController.h */,
+				EE24D8B01F9DED9B00AA496B /* ECSearchViewController.m */,
+				EE24D8B11F9DED9B00AA496B /* ECSearchViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		EE24D8A61F9DDA2700AA496B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE24D8AC1F9DE56400AA496B /* SelViewModel.h */,
+				EE24D8AD1F9DE56400AA496B /* SelViewModel.m */,
+				EE24D8B41F9DF36600AA496B /* SearchViewModel.h */,
+				EE24D8B51F9DF36600AA496B /* SearchViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE43F3B91F960F53001FFC7B /* Defaultionfos */ = {
+			isa = PBXGroup;
+			children = (
+				EE43F3BA1F960F78001FFC7B /* ECDefaultionfos.h */,
+				EE43F3BB1F960F78001FFC7B /* ECDefaultionfos.m */,
+			);
+			path = Defaultionfos;
+			sourceTree = "<group>";
+		};
+		EE4E22A51F91AF4F00FBE51B = {
+			isa = PBXGroup;
+			children = (
+				EE4E22B01F91AF4F00FBE51B /* E-cigarette */,
+				EE4E22AF1F91AF4F00FBE51B /* Products */,
+				7D66687B6981CE8A9C0C60A2 /* Pods */,
+				F1835B175EFB0AC3D8A7A742 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4E22AF1F91AF4F00FBE51B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4E22AE1F91AF4F00FBE51B /* E-cigarette.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4E22B01F91AF4F00FBE51B /* E-cigarette */ = {
+			isa = PBXGroup;
+			children = (
+				EE4E22B11F91AF4F00FBE51B /* AppDelegate.h */,
+				EE4E22B21F91AF4F00FBE51B /* AppDelegate.m */,
+				EE4E22B41F91AF4F00FBE51B /* ViewController.h */,
+				EE4E22B51F91AF4F00FBE51B /* ViewController.m */,
+				EE06098F1F95968B000E432B /* FirstLunMode.h */,
+				EE0609901F95968B000E432B /* FirstLunMode.m */,
+				EE4E22B71F91AF4F00FBE51B /* Main.storyboard */,
+				EE4E22BA1F91AF4F00FBE51B /* Assets.xcassets */,
+				EE4E22BC1F91AF4F00FBE51B /* LaunchScreen.storyboard */,
+				EECCF79B1F94866C00678C2B /* Custom */,
+				EE4E22C91F91C16500FBE51B /* ProjectMode */,
+				EE4E22C81F91B8D500FBE51B /* ProgectBaseVC */,
+				EE9B88421F95F00D00F1A60A /* MAIN */,
+				EE4E22C71F91B48B00FBE51B /* PrefixHeader.pch */,
+				EE4E22BF1F91AF4F00FBE51B /* Info.plist */,
+				EE4E22C01F91AF4F00FBE51B /* main.m */,
+			);
+			path = "E-cigarette";
+			sourceTree = "<group>";
+		};
+		EE4E22C81F91B8D500FBE51B /* ProgectBaseVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProgectBaseVC;
+			sourceTree = "<group>";
+		};
+		EE4E22C91F91C16500FBE51B /* ProjectMode */ = {
+			isa = PBXGroup;
+			children = (
+				EECCF7A01F94871C00678C2B /* BaseVC */,
+				EE944A8B1F9444AF005CC466 /* Base */,
+				EECCF7971F9480C900678C2B /* Navigation */,
+			);
+			path = ProjectMode;
+			sourceTree = "<group>";
+		};
+		EE5318A41F983AC8002461FC /* DataStored */ = {
+			isa = PBXGroup;
+			children = (
+				EE5318A51F983B1B002461FC /* ECStoredInfo.h */,
+				EE5318A61F983B1B002461FC /* ECStoredInfo.m */,
+				EE5318A81F983B96002461FC /* ECUser.h */,
+				EE5318A91F983B96002461FC /* ECUser.m */,
+			);
+			path = DataStored;
+			sourceTree = "<group>";
+		};
+		EE5318AB1F984527002461FC /* MBProgressHud_Tips */ = {
+			isa = PBXGroup;
+			children = (
+				EE5318AC1F984527002461FC /* MBProgressHUD.bundle */,
+				EE5318AD1F984527002461FC /* MBProgressHUD_Tips.h */,
+				EE5318AE1F984527002461FC /* MBProgressHUD_Tips.m */,
+			);
+			path = MBProgressHud_Tips;
+			sourceTree = "<group>";
+		};
+		EE5ED06A1F99C75B00AFABC8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E14AE1FA4175D00B7BA67 /* Model */,
+				EE149B3F1FA32EAB0081F276 /* View */,
+				EE5ED0711F99D58200AFABC8 /* ViewModel */,
+				EE5ED0701F99CC6500AFABC8 /* VC */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EE5ED0701F99CC6500AFABC8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				EE5ED06B1F99CB9700AFABC8 /* HomeViewController.h */,
+				EE5ED06C1F99CB9700AFABC8 /* HomeViewController.m */,
+				EE5ED06D1F99CB9700AFABC8 /* HomeViewController.xib */,
+				EE149B4B1FA33E900081F276 /* ECGeneralViewController.h */,
+				EE149B4C1FA33E900081F276 /* ECGeneralViewController.m */,
+				EE149B4D1FA33E900081F276 /* ECGeneralViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		EE5ED0711F99D58200AFABC8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE5ED0721F99D5A600AFABC8 /* HomeViewModel.h */,
+				EE5ED0731F99D5A600AFABC8 /* HomeViewModel.m */,
+				EE149B501FA340B00081F276 /* GeneralViewModel.h */,
+				EE149B511FA340B00081F276 /* GeneralViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE8E14AE1FA4175D00B7BA67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E14AF1FA4178D00B7BA67 /* GeneralModel.h */,
+				EE8E14B01FA4178D00B7BA67 /* GeneralModel.m */,
+				EE8E14B21FA418DB00B7BA67 /* GeneralList.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE944A8B1F9444AF005CC466 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EE944A8D1F944573005CC466 /* ECNavigationProtocol.h */,
+				EECCF78F1F94583B00678C2B /* UIViewModeService.h */,
+				EECCF7901F9459AD00678C2B /* UIViewModelServiceImpl.h */,
+				EECCF7911F9459AD00678C2B /* UIViewModelServiceImpl.m */,
+				EECCF7931F945A3900678C2B /* ECViewModelProtocol.h */,
+				EECCF7941F945B5E00678C2B /* ECViewModel.h */,
+				EECCF7951F945B5E00678C2B /* ECViewModel.m */,
+				EE149B451FA332040081F276 /* ECTableViewModel.h */,
+				EE149B461FA332050081F276 /* ECTableViewModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EE9B88421F95F00D00F1A60A /* MAIN */ = {
+			isa = PBXGroup;
+			children = (
+				EE24D8A41F9DDA1800AA496B /* Select */,
+				EE5ED06A1F99C75B00AFABC8 /* Home */,
+				EE9B884C1F95F0ED00F1A60A /* FirstLun */,
+				EE9B88431F95F02B00F1A60A /* Login */,
+			);
+			path = MAIN;
+			sourceTree = "<group>";
+		};
+		EE9B88431F95F02B00F1A60A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EE9B88451F95F04000F1A60A /* ViewMode */,
+				EE9B88441F95F03A00F1A60A /* VC */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EE9B88441F95F03A00F1A60A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				EE9B88461F95F07000F1A60A /* ECLoginViewController.h */,
+				EE9B88471F95F07000F1A60A /* ECLoginViewController.m */,
+				EE9B88481F95F07000F1A60A /* ECLoginViewController.xib */,
+				EE5318B61F9874E1002461FC /* ECSignViewController.h */,
+				EE5318B71F9874E1002461FC /* ECSignViewController.m */,
+				EE5318B81F9874E1002461FC /* ECSignViewController.xib */,
+				EE39EDD41F9989D400A4C8C0 /* ResetViewController.h */,
+				EE39EDD51F9989D400A4C8C0 /* ResetViewController.m */,
+				EE39EDD61F9989D400A4C8C0 /* ResetViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		EE9B88451F95F04000F1A60A /* ViewMode */ = {
+			isa = PBXGroup;
+			children = (
+				EE14656A1F9740CD0014C48D /* LoginViewModel.h */,
+				EE14656B1F9740CD0014C48D /* LoginViewModel.m */,
+				EE5318BB1F9875E5002461FC /* SignViewModel.h */,
+				EE5318BC1F9875E6002461FC /* SignViewModel.m */,
+				EE39EDD91F998B0600A4C8C0 /* ResetViewModel.h */,
+				EE39EDDA1F998B0600A4C8C0 /* ResetViewModel.m */,
+			);
+			path = ViewMode;
+			sourceTree = "<group>";
+		};
+		EE9B884C1F95F0ED00F1A60A /* FirstLun */ = {
+			isa = PBXGroup;
+			children = (
+				EE9B884E1F95F17A00F1A60A /* ViewModel */,
+				EE9B884D1F95F0F600F1A60A /* VC */,
+			);
+			path = FirstLun;
+			sourceTree = "<group>";
+		};
+		EE9B884D1F95F0F600F1A60A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				EE9B884F1F95F1A800F1A60A /* ECFirstViewController.h */,
+				EE9B88501F95F1A800F1A60A /* ECFirstViewController.m */,
+				EE9B88511F95F1A800F1A60A /* ECFirstViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		EE9B884E1F95F17A00F1A60A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE9B88541F95FB2700F1A60A /* FirstLunViewMode.h */,
+				EE9B88551F95FB2700F1A60A /* FirstLunViewMode.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EEB402901F9EDA1D004C7A41 /* DeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				EEB402911F9EDFFE004C7A41 /* ECDeviceConnect.h */,
+				EEB402921F9EDFFE004C7A41 /* ECDeviceConnect.m */,
+				EE8E14B41FA4267B00B7BA67 /* ECCommunication.h */,
+				EE8E14B51FA4267B00B7BA67 /* ECCommunication.m */,
+				EEA066B01FA1F5C400D67AB4 /* ECSannendPeripheral.h */,
+				EEA066B11FA1F5C400D67AB4 /* ECSannendPeripheral.m */,
+			);
+			path = DeviceInfo;
+			sourceTree = "<group>";
+		};
+		EECCF7971F9480C900678C2B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				EECCF7981F94810C00678C2B /* ECNavigationControllerStack.h */,
+				EECCF7991F94810C00678C2B /* ECNavigationControllerStack.m */,
+				EE1AE61B1F949B9900C38658 /* ECNavViewController.h */,
+				EE1AE61C1F949B9900C38658 /* ECNavViewController.m */,
+				EE1465671F97288B0014C48D /* UINavigationItem+EC.h */,
+				EE1465681F97288B0014C48D /* UINavigationItem+EC.m */,
+				EE5ED0751F99EE4700AFABC8 /* UILabel+EC.h */,
+				EE5ED0761F99EE4700AFABC8 /* UILabel+EC.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		EECCF79B1F94866C00678C2B /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EEB402901F9EDA1D004C7A41 /* DeviceInfo */,
+				EE5318AB1F984527002461FC /* MBProgressHud_Tips */,
+				EE5318A41F983AC8002461FC /* DataStored */,
+				EE14656D1F9745BE0014C48D /* LocalizeableModel */,
+				EE1465601F97045A0014C48D /* Category */,
+				EE43F3B91F960F53001FFC7B /* Defaultionfos */,
+				EECCF79C1F94867F00678C2B /* Utils */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		EECCF79C1F94867F00678C2B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EECCF79D1F94869D00678C2B /* ECRouter.h */,
+				EECCF79E1F94869D00678C2B /* ECRouter.m */,
+				EE1465711F9748690014C48D /* ECStringVerify.h */,
+				EE1465721F9748690014C48D /* ECStringVerify.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EECCF7A01F94871C00678C2B /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				EECCF7A11F94873700678C2B /* ECViewController.h */,
+				EECCF7A21F94873700678C2B /* ECViewController.m */,
+				EECCF7A41F9487B000678C2B /* ECViewProtocol.h */,
+				EE149B481FA3325F0081F276 /* ECTableViewViewController.h */,
+				EE149B491FA3325F0081F276 /* ECTableViewViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		F1835B175EFB0AC3D8A7A742 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEB402941F9EE71E004C7A41 /* CoreBluetooth.framework */,
+				EE9B88401F95D8E100F1A60A /* libc++.tbd */,
+				EE9B883E1F95D8D700F1A60A /* libsqlite3.tbd */,
+				EE9B883C1F95D8C700F1A60A /* libicucore.tbd */,
+				EE9B883A1F95D8BE00F1A60A /* libz.1.2.5.tbd */,
+				EE9B88381F95D8B400F1A60A /* SystemConfiguration.framework */,
+				EE9B88361F95D8AC00F1A60A /* CoreTelephony.framework */,
+				EE9B88341F95D8A500F1A60A /* CFNetwork.framework */,
+				EE9B88321F95D89E00F1A60A /* MobileCoreServices.framework */,
+				EE9B88301F95D89300F1A60A /* CoreGraphics.framework */,
+				EE9B882E1F95D88B00F1A60A /* Security.framework */,
+				EE9B882C1F95D88300F1A60A /* CoreLocation.framework */,
+				FB6DB6501883FDBE706C92E8 /* Pods_E_cigarette.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4E22AD1F91AF4F00FBE51B /* E-cigarette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4E22C41F91AF4F00FBE51B /* Build configuration list for PBXNativeTarget "E-cigarette" */;
+			buildPhases = (
+				6839208C1DE8696B68032879 /* [CP] Check Pods Manifest.lock */,
+				EE4E22AA1F91AF4F00FBE51B /* Sources */,
+				EE4E22AB1F91AF4F00FBE51B /* Frameworks */,
+				EE4E22AC1F91AF4F00FBE51B /* Resources */,
+				7C02E90E3614FB3E558E0B34 /* [CP] Embed Pods Frameworks */,
+				AAD7E8542502BDF63023A001 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-cigarette";
+			productName = "E-cigarette";
+			productReference = EE4E22AE1F91AF4F00FBE51B /* E-cigarette.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4E22A61F91AF4F00FBE51B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = SMA;
+				TargetAttributes = {
+					EE4E22AD1F91AF4F00FBE51B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE4E22A91F91AF4F00FBE51B /* Build configuration list for PBXProject "E-cigarette" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE4E22A51F91AF4F00FBE51B;
+			productRefGroup = EE4E22AF1F91AF4F00FBE51B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4E22AD1F91AF4F00FBE51B /* E-cigarette */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4E22AC1F91AF4F00FBE51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5318BA1F9874E1002461FC /* ECSignViewController.xib in Resources */,
+				EE149B441FA32EC80081F276 /* ECGeneralCell.xib in Resources */,
+				EE4E22BE1F91AF4F00FBE51B /* LaunchScreen.storyboard in Resources */,
+				EE24D8AB1F9DDA6F00AA496B /* ECSelectViewController.xib in Resources */,
+				EE39EDD81F9989D400A4C8C0 /* ResetViewController.xib in Resources */,
+				EE9B88531F95F1A800F1A60A /* ECFirstViewController.xib in Resources */,
+				EE4E22BB1F91AF4F00FBE51B /* Assets.xcassets in Resources */,
+				EE8E14B31FA418DB00B7BA67 /* GeneralList.plist in Resources */,
+				EE9B884A1F95F07000F1A60A /* ECLoginViewController.xib in Resources */,
+				EE149B4F1FA33E900081F276 /* ECGeneralViewController.xib in Resources */,
+				EE24D8B31F9DED9B00AA496B /* ECSearchViewController.xib in Resources */,
+				EE4E22B91F91AF4F00FBE51B /* Main.storyboard in Resources */,
+				EE5318AF1F984538002461FC /* MBProgressHUD.bundle in Resources */,
+				EE5ED06F1F99CB9700AFABC8 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6839208C1DE8696B68032879 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C02E90E3614FB3E558E0B34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-E-cigarette/Pods-E-cigarette-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD7E8542502BDF63023A001 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-E-cigarette/Pods-E-cigarette-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4E22AA1F91AF4F00FBE51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE149B4A1FA3325F0081F276 /* ECTableViewViewController.m in Sources */,
+				EE8E14B11FA4178D00B7BA67 /* GeneralModel.m in Sources */,
+				EE5318BD1F9875E6002461FC /* SignViewModel.m in Sources */,
+				EE24D8B61F9DF36600AA496B /* SearchViewModel.m in Sources */,
+				EE24D8AE1F9DE56400AA496B /* SelViewModel.m in Sources */,
+				EE1465691F97288B0014C48D /* UINavigationItem+EC.m in Sources */,
+				EE8E14B61FA4267B00B7BA67 /* ECCommunication.m in Sources */,
+				EE9B88561F95FB2700F1A60A /* FirstLunViewMode.m in Sources */,
+				EE149B471FA332050081F276 /* ECTableViewModel.m in Sources */,
+				EE1465731F9748690014C48D /* ECStringVerify.m in Sources */,
+				EE43F3BC1F960F78001FFC7B /* ECDefaultionfos.m in Sources */,
+				EE5318AA1F983B96002461FC /* ECUser.m in Sources */,
+				EECCF7921F9459AD00678C2B /* UIViewModelServiceImpl.m in Sources */,
+				EE9B88521F95F1A800F1A60A /* ECFirstViewController.m in Sources */,
+				EECCF7961F945B5E00678C2B /* ECViewModel.m in Sources */,
+				EE9B88491F95F07000F1A60A /* ECLoginViewController.m in Sources */,
+				EE149B4E1FA33E900081F276 /* ECGeneralViewController.m in Sources */,
+				EE5318B91F9874E1002461FC /* ECSignViewController.m in Sources */,
+				EECCF79A1F94810C00678C2B /* ECNavigationControllerStack.m in Sources */,
+				EE39EDDB1F998B0600A4C8C0 /* ResetViewModel.m in Sources */,
+				EECCF79F1F94869E00678C2B /* ECRouter.m in Sources */,
+				EE5318A71F983B1B002461FC /* ECStoredInfo.m in Sources */,
+				EE24D8B21F9DED9B00AA496B /* ECSearchViewController.m in Sources */,
+				EE1AE61D1F949B9900C38658 /* ECNavViewController.m in Sources */,
+				EE24D8AA1F9DDA6F00AA496B /* ECSelectViewController.m in Sources */,
+				EE149B521FA340B00081F276 /* GeneralViewModel.m in Sources */,
+				EECCF7A31F94873700678C2B /* ECViewController.m in Sources */,
+				EE1465661F9705090014C48D /* UIImage+EC.m in Sources */,
+				EEB402931F9EDFFE004C7A41 /* ECDeviceConnect.m in Sources */,
+				EE149B431FA32EC80081F276 /* ECGeneralCell.m in Sources */,
+				EEA066B21FA1F5C400D67AB4 /* ECSannendPeripheral.m in Sources */,
+				EE4E22B61F91AF4F00FBE51B /* ViewController.m in Sources */,
+				EE39EDD71F9989D400A4C8C0 /* ResetViewController.m in Sources */,
+				EE1465701F9746220014C48D /* ECLocalizeableMode.m in Sources */,
+				EE4E22C11F91AF4F00FBE51B /* main.m in Sources */,
+				EE4E22B31F91AF4F00FBE51B /* AppDelegate.m in Sources */,
+				EE5ED0741F99D5A600AFABC8 /* HomeViewModel.m in Sources */,
+				EE5ED06E1F99CB9700AFABC8 /* HomeViewController.m in Sources */,
+				EE14656C1F9740CD0014C48D /* LoginViewModel.m in Sources */,
+				EE0609911F95968B000E432B /* FirstLunMode.m in Sources */,
+				EE5ED0771F99EE4700AFABC8 /* UILabel+EC.m in Sources */,
+				EE5318B01F98453C002461FC /* MBProgressHUD_Tips.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE4E22B71F91AF4F00FBE51B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4E22B81F91AF4F00FBE51B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE4E22BC1F91AF4F00FBE51B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4E22BD1F91AF4F00FBE51B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE4E22C21F91AF4F00FBE51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE4E22C31F91AF4F00FBE51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4E22C51F91AF4F00FBE51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A09CEABD52F5542DAA3FD2D /* Pods-E-cigarette.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UXHZJEX24R;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = "E-cigarette/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smawatch.E-cigarette";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE4E22C61F91AF4F00FBE51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5569F08A4A882F784B45CFC /* Pods-E-cigarette.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UXHZJEX24R;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = "E-cigarette/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smawatch.E-cigarette";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4E22A91F91AF4F00FBE51B /* Build configuration list for PBXProject "E-cigarette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4E22C21F91AF4F00FBE51B /* Debug */,
+				EE4E22C31F91AF4F00FBE51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4E22C41F91AF4F00FBE51B /* Build configuration list for PBXNativeTarget "E-cigarette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4E22C51F91AF4F00FBE51B /* Debug */,
+				EE4E22C61F91AF4F00FBE51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE4E22A61F91AF4F00FBE51B /* Project object */;
+}
